@@ -1,11 +1,11 @@
 // import React from 'react';
 import './App.css';
-import Header from "./components/Header/Header/index";
+import Header from "./components/Header";
 import{
-  BrowserRouter as Router,Switch,Route, Redirect,
+  BrowserRouter as Router,Switch,Route,
 } from 'react-router-dom'
 
-import StackOverflow from './components/'
+import StackOverflow from './components/Stackoverflow'
 
 function App() {
   return (
