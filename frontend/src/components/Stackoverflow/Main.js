@@ -9,7 +9,7 @@ function Main() {
       <div className="main-container">
         <div className="main-top">
           <h2>All Questions</h2>
-          <Link>
+          <Link to = "/add-question">
             <button>Ask Question</button>
           </Link>
         </div>
@@ -36,6 +36,11 @@ function Main() {
         <div className="questions">
           <div className="question">
             <AllQuestions/>
+            <AllQuestions/>
+            <AllQuestions/>
+            <AllQuestions/>
+            <AllQuestions/>
+            
           </div>
         </div>
       </div>
